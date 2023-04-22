@@ -1,6 +1,6 @@
-https : // leetcode.com/problems/time-needed-to-buy-tickets/description/
+// https://leetcode.com/problems/time-needed-to-buy-tickets/description/
 #include <bits/stdc++.h>
-        using namespace std;
+using namespace std;
 int timeRequiredToBuy(vector<int> &tickets, int k)
 {
 
