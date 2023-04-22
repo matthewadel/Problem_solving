@@ -1,4 +1,4 @@
-// https://vjudge.net/contest/537759#problem
+// https://vjudge.net/contest/537759#problem/A
 // https://www.hackerrank.com/contests/101hack19/challenges/two-strings
 
 #include <bits/stdc++.h>
@@ -21,12 +21,13 @@ int main()
       set_1.insert(s1[i]);
     for (int i = 0; i < s2.size(); i++)
     {
-      if (set_1.count(s2[i])){
+      if (set_1.count(s2[i]))
+      {
         result = "YES";
         break;
       }
     }
-    cout<<result<<endl;
+    cout << result << endl;
   }
 
   return 0;
